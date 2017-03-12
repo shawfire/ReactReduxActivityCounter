@@ -17,7 +17,7 @@ export const SkiDayList = ({days}) => (
 		<tbody>
 			{days.map((day, i) =>
 				<SkiDayRow key={i}
-						   {...day}/>
+						   {...day}/>	
 				)}
 		</tbody>
 
@@ -28,7 +28,7 @@ SkiDayList.propTypes = {
 	days: function(props) {
 		if(!Array.isArray(props.days)) {
 			return new Error(
-				"SkiDayList should be an array"
+				"SkiDayList should be an array"	
 				)
 		} else if(!props.days.length) {
 			return new Error(
@@ -39,3 +39,16 @@ SkiDayList.propTypes = {
 		}
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
