@@ -17,5 +17,18 @@ Use Babel's in browser transpiler [cdnjs.com babel 5.8.38](https://cdnjs.com/lib
 ```
 # create .babelrc file
 $ npm install --save-dev babel-preset-latest babel-preset-react babel-preset-stage-0
+$ npm i webpack babel-loader webpack-dev-server --save-dev
+$ sudo npm i -g webpack
+$ webpack
+$ node -v
+v6.9.1  
+$ npm -v
+3.10.8
+$ # get lattest from https://nodejs.org/en/
+$ node -v
+v6.10.0
+$ npm -v
+3.10.10
+$
 
 ```
