@@ -13,3 +13,9 @@ After converting to JSX we will need to use [babel](https://babeljs.io/) to
 transpile the JSX.
 
 Use Babel's in browser transpiler [cdnjs.com babel 5.8.38](https://cdnjs.com/libraries/babel-core/5.8.38)
+
+```
+# create .babelrc file
+$ npm install --save-dev babel-preset-latest babel-preset-react babel-preset-stage-0
+
+```
