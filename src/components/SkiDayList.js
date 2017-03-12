@@ -16,9 +16,16 @@ export const SkiDayList = ({days}) => (
 		<tbody>
 			{days.map((day, i) =>
 				<SkiDayRow key={i}
-                   {...day}/>
+						   {...day}/>	
 				)}
 		</tbody>
 
 	</table>
 )
+
+
+
+
+
+
+
