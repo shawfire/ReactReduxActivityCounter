@@ -6,7 +6,7 @@
   "scripts": {
     "start": "./node_modules/.bin/webpack-dev-server"
   },
-  "author": "Eve Porcello",
+  "author": "John Shaw",
   "license": "MIT",
   "devDependencies": {
     "autoprefixer-loader": "^3.2.0",
