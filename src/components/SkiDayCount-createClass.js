@@ -12,9 +12,8 @@ export const SkiDayCount = createClass({
   },
   getDefaultProps() {
     return {
-      total: 50,
-      powder: 50,
-      backcountry: 15,
+      powder: 50, 
+      backcountry: 15, 
       goal: 100
     }
   },
@@ -45,7 +44,7 @@ export const SkiDayCount = createClass({
         <div>
           <span>
             {this.calcGoalProgress(
-              this.props.total,
+              this.props.total, 
               this.props.goal
             )}
           </span>

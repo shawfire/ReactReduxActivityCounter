@@ -32,7 +32,7 @@ export class SkiDayCount extends Component {
         <div>
           <span>
             {this.calcGoalProgress(
-              this.props.total,
+              this.props.total, 
               this.props.goal
             )}
           </span>
@@ -55,3 +55,17 @@ SkiDayCount.propTypes = {
   powder: PropTypes.number,
   backcountry: PropTypes.number
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
