@@ -43,4 +43,4 @@ npm i style-loader css-loader autoprefixer-loader sass-loader node-sass --save-d
 ```
 npm i --save react-icons
 ```
-+ The use of propTypes is vary useful for validation and aids in the debugging processes. [React.propTypes](https://facebook.github.io/react/docs/typechecking-with-proptypes.html)
++ The use of [React.propTypes](https://facebook.github.io/react/docs/typechecking-with-proptypes.html) is very useful for validation and aids in the debugging process. 
