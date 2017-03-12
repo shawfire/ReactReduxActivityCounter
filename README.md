@@ -39,3 +39,7 @@ npm i style-loader css-loader autoprefixer-loader sass-loader node-sass --save-d
 
 # Add configuration for each of the above loaders to the webpack.config.js file.
 ```
++ [React icons](https://gorangajic.github.io/react-icons/fa.html)
+```
+npm i --save react-icons 
+```
