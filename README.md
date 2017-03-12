@@ -37,4 +37,5 @@ npm i style-loader css-loader autoprefixer-loader sass-loader node-sass --save-d
 # Note: npm WARN deprecated autoprefixer-loader@3.2.0: Please use postcss-loader instead of autoprefixer-loader
 #       npm WARN prefer global node-gyp@3.5.0 should be installed with -g
 
+# Add configuration for each of the above loaders to the webpack.config.js file.
 ```
