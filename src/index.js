@@ -6,6 +6,6 @@ import { SkiDayList } from './components/SkiDayList'
 window.React = React
 
 render(
-	<SkiDayList days="plenty of days"/>,
+	<SkiDayList days={[]}/>,
 	document.getElementById('react-container')
 )
