@@ -12,6 +12,7 @@ export const SkiDayCount = createClass({
   },
   getDefaultProps() {
     return {
+      total: 50,
       powder: 50,
       backcountry: 15,
       goal: 100
