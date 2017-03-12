@@ -1,12 +1,8 @@
 import '../stylesheets/ui.scss'
 
-const percentToDecimal = (decimal) => {
-	return ((decimal * 100) + '%')
-}
+const percentToDecimal = decimal => ((decimal * 100) + '%')
 
-const calcGoalProgress = (total, goal) => {
-	return percentToDecimal(total/goal)
-}
+const calcGoalProgress = (total, goal) => percentToDecimal(total/goal)
 
 export const SkiDayCount = ({total, powder, backcountry, goal}) => (
 		<div className="ski-day-count">
@@ -25,7 +21,7 @@ export const SkiDayCount = ({total, powder, backcountry, goal}) => (
 			<div>
 				<span>
 					{calcGoalProgress(
-						total, 
+						total,
 						goal
 					)}
 				</span>
