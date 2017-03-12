@@ -41,5 +41,6 @@ npm i style-loader css-loader autoprefixer-loader sass-loader node-sass --save-d
 ```
 + [React icons](https://gorangajic.github.io/react-icons/fa.html)
 ```
-npm i --save react-icons 
+npm i --save react-icons
 ```
++ [React.propTypes](https://facebook.github.io/react/docs/typechecking-with-proptypes.html)
