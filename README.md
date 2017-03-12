@@ -30,5 +30,11 @@ v6.10.0
 $ npm -v
 3.10.10
 $
+npm i --save react react-dom
+npm i --save-dev json-loader
+
+npm i style-loader css-loader autoprefixer-loader sass-loader node-sass --save-dev
+# Note: npm WARN deprecated autoprefixer-loader@3.2.0: Please use postcss-loader instead of autoprefixer-loader
+#       npm WARN prefer global node-gyp@3.5.0 should be installed with -g
 
 ```
