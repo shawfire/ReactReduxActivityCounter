@@ -7,7 +7,7 @@ window.React = React
 
 
 render(
-	<SkiDayCount backcountry={false}/>,
+	<SkiDayCount backcountry={15}/>,
 	document.getElementById('react-container')
 )
 
