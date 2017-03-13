@@ -46,6 +46,7 @@ npm i --save react-icons
 + The use of [React.propTypes](https://facebook.github.io/react/docs/typechecking-with-proptypes.html) is very useful for validation and aids in the debugging process.
 + Use of the [react-router](https://github.com/ReactTraining/react-router) further doco on [react-router](https://github.com/ReactTraining/react-router/tree/master/packages/react-router) and [react-router training](https://reacttraining.com/).
 + (React-router v4 docs)[https://github.com/ReactTraining/react-router/blob/v4/README.md]
++ Stick with react-router v3 for now as v4 has major changes.
 ```
 npm i --save react-router
 ```
