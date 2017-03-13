@@ -1,5 +1,19 @@
 import { PropTypes } from 'react'
 
+const tahoeResorts = [
+	"Alpine Meadows",
+	"Boreal",
+	"Diamond Peak",
+	"Donner Ski Ranch", 
+	"Heavenly", 
+	"Homewood",
+	"Kirkwood",
+	"Mt. Rose", 
+	"Northstar",
+	"Squaw Valley",
+	"Sugar Bowl"
+]
+
 export const AddDayForm = ({ resort, 
 							 date, 
 							 powder, 
